@@ -24,6 +24,7 @@
 - Instalación de Sophos XG en VM.
 <img src="imgs/instalacion1.png" width="600">
 - Asignación de interfaces LAN y WAN.
+<img src="imgs/LAN.png" width="600">
 - Creación de zonas y segmentos de red simulados.
 
 ### 🔹 2. Gestión de usuarios y grupos
