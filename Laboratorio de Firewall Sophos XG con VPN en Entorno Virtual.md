@@ -25,11 +25,12 @@
 <img src="imgs/instalacion1.png" width="600">
 - Asignación de interfaces LAN y WAN.
 <img src="imgs/LAN.png" width="600">
-- Creación de zonas y segmentos de red simulados.
+<img src="imgs/WAN.png" width="600">
 
-### 🔹 2. Gestión de usuarios y grupos
-- Se identificó que algunos **grupos de usuarios no pueden eliminarse** si están en uso.
-- Posible conflicto inicial relacionado con Active Directory, aunque **no se utilizó ningún AD externo.**
+### 2. 🧱 VLANs y Segmentación
+- Creación de VLANs en la red LAN para segmentar el tráfico interno.
+
+- Configuración de rutas y acceso entre segmentos internos mediante reglas explícitas.
 
 ### 🔹 3. Políticas y reglas de firewall
 - Se eliminaron políticas SSL y reglas innecesarias para limpiar la configuración.
