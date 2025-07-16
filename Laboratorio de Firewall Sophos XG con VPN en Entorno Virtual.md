@@ -1,11 +1,8 @@
 ## 🛠️ Herramientas utilizadas
 
-- **VirtualBox** / **VMware** – Hypervisor para las MVs.
+- **VirtualBox**
 - **Sophos XG Home Edition** – Firewall perimetral virtualizado.
-- **Cliente VPN SSL de Sophos** – Para conexión remota al firewall.
-- **Host local Windows/Linux** – Como cliente de prueba.
-- Red interna y simulación WAN para probar accesos externos.
-
+  
 ---
 
 ## 🧩 Objetivos del laboratorio
@@ -14,7 +11,6 @@
 - Configurar reglas de firewall y control de acceso.
 - Habilitar y probar una **VPN SSL** remota.
 - Administrar usuarios, grupos y políticas.
-- Documentar errores y soluciones encontradas.
 
 ---
 
@@ -29,12 +25,16 @@
 
 ### 2. 🧱 VLANs y Segmentación
 - Creación de VLANs en la red LAN para segmentar el tráfico interno.
-
-- Configuración de rutas y acceso entre segmentos internos mediante reglas explícitas.
-
+<img src="imgs/Vlan.png" width="600">
+- Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.
+<img src="imgs/zona.png" width="600">
+Asignacion de DHCP para la Vlan
+<img src="imgs/dhcp.png" width="600">
+  
 ### 🔹 3. Políticas y reglas de firewall
-- Se eliminaron políticas SSL y reglas innecesarias para limpiar la configuración.
-- No se podía asignar usuarios a ciertos grupos hasta vaciar dependencias.
+Creación de políticas de firewall entre zonas
+<img src="imgs/reglas.png" width="600">
+
 
 ### 🔹 4. Configuración de VPN SSL
 - Se habilitó el acceso VPN por WAN.
