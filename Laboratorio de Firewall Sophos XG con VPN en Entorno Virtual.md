@@ -37,15 +37,12 @@ Asignacion de DHCP para la Vlan
 
 
 ### 🔹 4. Configuración de VPN SSL
-- Se habilitó el acceso VPN por WAN.
-- El cliente SSL VPN fue descargado e instalado correctamente.
-- Al intentar conectarse, la VPN se conectaba pero **desconectaba de inmediato.**
+- Se creó un usuario local y un grupo de usuarios VPN.
+<img src="imgs/vpn.png" width="300">
+- Se asignó al usuario una política de VPN SSL específica.
+<img src="imgs/politica.png" width="300">
 
-### 🔹 5. Solución al problema de desconexión
-- Se revisaron **reglas ACL y acceso remoto al portal de usuarios.**
-- Se verificó que la interfaz WAN permite acceso SSL VPN (puerto 8443).
-- Se examinó el archivo `.ovpn` y se confirmó que contiene múltiples rutas de fallback (`remote`).
-- Se dejó clara la diferencia entre editar el `.ovpn` directamente vs. regenerarlo tras cambios en el firewall.
+
 
 ---
 
