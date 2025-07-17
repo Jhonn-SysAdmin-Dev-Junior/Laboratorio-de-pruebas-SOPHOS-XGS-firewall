@@ -32,7 +32,7 @@ Asignacion de DHCP para la Vlan
 <img src="imgs/dhcp.png" width="600">
   
 ### 🔹 3. Políticas y reglas de firewall
-Creación de políticas de firewall entre zonas
+- Creación de políticas de firewall entre zonas
 <img src="imgs/reglas.png" width="300">
 
 
