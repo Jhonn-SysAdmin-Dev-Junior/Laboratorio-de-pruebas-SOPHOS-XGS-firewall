@@ -33,7 +33,7 @@ Asignacion de DHCP para la Vlan
   
 ### 🔹 3. Políticas y reglas de firewall
 Creación de políticas de firewall entre zonas
-<img src="imgs/reglas.png" width="600">
+<img src="imgs/reglas.png" width="300">
 
 
 ### 🔹 4. Configuración de VPN SSL
