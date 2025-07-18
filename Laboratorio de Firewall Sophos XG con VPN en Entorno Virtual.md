@@ -19,8 +19,8 @@
 ### 🔹 1. Configuración inicial de Sophos
 - Instalación de Sophos XG en VM.
 <img src="imgs/instalacion1.png" width="600">
-<br>
 - Asignación de interfaces LAN y WAN.
+<br>
 <img src="imgs/LAN.png" width="600">
 <img src="imgs/WAN.png" width="600">
 
@@ -28,8 +28,10 @@
 - Creación de VLANs en la red LAN para segmentar el tráfico interno.
 <img src="imgs/Vlan.png" width="600">
 - Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.
+<br>
 <img src="imgs/zona.png" width="600">
-- Asignacion de DHCP para la Vlan. 
+- Asignacion de DHCP para la Vlan.
+<br>
 <img src="imgs/dhcp.png" width="600">
   
 ### 🔹 3. Políticas y reglas de firewall
