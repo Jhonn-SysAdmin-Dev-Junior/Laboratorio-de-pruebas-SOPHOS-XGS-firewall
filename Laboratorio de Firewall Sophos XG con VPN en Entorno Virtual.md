@@ -28,7 +28,7 @@
 <img src="imgs/Vlan.png" width="600">
 - Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.
 <img src="imgs/zona.png" width="600">
-Asignacion de DHCP para la Vlan
+- Asignacion de DHCP para la Vlan. 
 <img src="imgs/dhcp.png" width="600">
   
 ### 🔹 3. Políticas y reglas de firewall
