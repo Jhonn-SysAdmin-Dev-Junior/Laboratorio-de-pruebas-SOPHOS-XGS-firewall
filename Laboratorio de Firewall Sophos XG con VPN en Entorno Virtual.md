@@ -1,7 +1,7 @@
 ## 🛠️ Herramientas utilizadas
 
 - **VirtualBox**
-- **Sophos XG Home Edition** – Firewall perimetral virtualizado.
+- **Sophos XG Home Edition** – Firewall virtualizado.
   
 ---
 
