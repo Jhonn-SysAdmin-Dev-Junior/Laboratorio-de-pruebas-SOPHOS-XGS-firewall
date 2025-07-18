@@ -20,7 +20,7 @@
 - Instalación de Sophos XG en VM.
 <img src="imgs/instalacion1.png" width="600">
 - Asignación de interfaces LAN y WAN.
-<br>
+  <br>
 <img src="imgs/LAN.png" width="600">
 <img src="imgs/WAN.png" width="600">
 
