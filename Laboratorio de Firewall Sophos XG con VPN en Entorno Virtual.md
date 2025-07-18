@@ -44,7 +44,7 @@
 
 
 - Se habilitó el acceso a la LAN y a Internet desde la VPN.
-- <img src="imgs/politica.png" width="500">
+<img src="imgs/politica.png" width="500">
 - Se generó el archivo de configuración .ovpn para importar al cliente Sophos Connect.
 <img src="imgs/politica.png" width="500">
 - Se descargó e instaló el cliente VPN en el equipo host.
