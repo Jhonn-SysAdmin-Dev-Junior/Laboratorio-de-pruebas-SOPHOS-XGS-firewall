@@ -37,25 +37,34 @@
 
 
 ### 🔹 4. Configuración de VPN SSL
-- Se creó un usuario local y un grupo de usuarios VPN.
-<img src="imgs/vpn.png" width="500">
-- Se asignó al usuario una política de VPN SSL específica.
-<img src="imgs/politica.png" width="500">
+- Se creó un usuario local y un grupo de usuarios VPN.  
+  ![vpn](imgs/vpn.png)
 
+- Se asignó al usuario una política de VPN SSL específica.  
+  ![política](imgs/politica.png)
 
-- Se habilitó el acceso a la LAN y a Internet desde la VPN.
-<img src="imgs/politica.png" width="500">
-- Se generó el archivo de configuración .ovpn para importar al cliente Sophos Connect.
-<img src="imgs/politica.png" width="500">
-- Se descargó e instaló el cliente VPN en el equipo host.
-<img src="imgs/politica.png" width="500">
-- Se importó el archivo .ovpn al cliente para establecer la conexión.
-<img src="imgs/politica.png" width="500">
-- La VPN se probó correctamente y se pudo acceder a la red interna y navegar por internet.
-<img src="imgs/politica.png" width="500">
-- Se creó una regla de firewall para permitir tráfico desde la VPN a la LAN y WAN.
-<img src="imgs/politica.png" width="500">
-- Se ajustó el acceso desde zonas para permitir portal VPN y SSL VPN desde WAN.
-<img src="imgs/politica.png" width="500">
-- Se validó el tráfico VPN con la ruta ip route en el cliente.
-- Simular un entorno real de red segura.
+- Se habilitó el acceso a la LAN y a Internet desde la VPN.  
+  ![política](imgs/politica.png)
+
+- Se generó el archivo de configuración `.ovpn` para importar al cliente Sophos Connect.  
+  ![política](imgs/politica.png)
+
+- Se descargó e instaló el cliente VPN en el equipo host.  
+  ![política](imgs/politica.png)
+
+- Se importó el archivo `.ovpn` al cliente para establecer la conexión.  
+  ![política](imgs/politica.png)
+
+- La VPN se probó correctamente y se pudo acceder a la red interna y navegar por internet.  
+  ![política](imgs/politica.png)
+
+- Se creó una regla de firewall para permitir tráfico desde la VPN a la LAN y WAN.  
+  ![política](imgs/politica.png)
+
+- Se ajustó el acceso desde zonas para permitir portal VPN y SSL VPN desde WAN.  
+  ![política](imgs/politica.png)
+
+- Se validó el tráfico VPN con la ruta `ip route` en el cliente.
+
+- Simulación de un entorno real de red segura.
+
