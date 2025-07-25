@@ -55,6 +55,6 @@
 <img src="imgs/politica.png" width="500">
 - Se creó una regla de firewall para permitir tráfico desde la VPN a la LAN y WAN.
 <img src="imgs/politica.png" width="500">
-+ Se ajustó el acceso desde zonas para permitir portal VPN y SSL VPN desde WAN.
+- Se ajustó el acceso desde zonas para permitir portal VPN y SSL VPN desde WAN.
 <img src="imgs/politica.png" width="500">
 - Se validó el tráfico VPN con la ruta ip route en el cliente.
