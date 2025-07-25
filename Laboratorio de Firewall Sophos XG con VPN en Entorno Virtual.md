@@ -1,39 +1,39 @@
 🛠️ Herramientas utilizadas
-VirtualBox
 
-Sophos XG Home Edition – Firewall virtualizado.
+- **VirtualBox**
+- **Sophos XG Home Edition** – Firewall virtualizado.
+  
+---
 
-🧩 Objetivos del laboratorio
-Simular un entorno real de red segura.
+## 🧩 Objetivos del laboratorio
 
-Configurar reglas de firewall y control de acceso.
+- Simular un entorno real de red segura.
+- Configurar reglas de firewall y control de acceso.
+- Habilitar y probar una **VPN SSL** remota.
+- Administrar usuarios, grupos y políticas.
 
-Habilitar y probar una VPN SSL remota.
+---
 
-Administrar usuarios, grupos y políticas.
+## 🧪 Proceso de configuración y pruebas
 
-🧪 Proceso de configuración y pruebas
-🔹 1. Configuración inicial de Sophos
-Instalación de Sophos XG en VM
-<img src="imgs/instalacion1.png" width="500"/>
+### 🔹 1. Configuración inicial de Sophos
+- Instalación de Sophos XG en VM.
+<img src="imgs/instalacion1.png" width="500">
+- Asignación de interfaces LAN y WAN.
+<img src="imgs/LAN.png" width="500">
+<img src="imgs/WAN.png" width="500">
 
-Asignación de interfaces LAN y WAN
-<img src="imgs/LAN.png" width="500"/>
-<img src="imgs/WAN.png" width="500"/>
-
-2. 🧱 VLANs y Segmentación
-Creación de VLANs en la red LAN para segmentar el tráfico interno
-<img src="imgs/Vlan.png" width="500"/>
-
-Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico
-<img src="imgs/zona.png" width="500"/>
-
-Asignación de DHCP para la VLAN
-<img src="imgs/dhcp.png" width="500"/>
-
-🔹 3. Políticas y reglas de firewall
-Creación de políticas de firewall entre zonas
-<img src="imgs/reglas.png" width="500"/>
+### 2. 🧱 VLANs y Segmentación
+- Creación de VLANs en la red LAN para segmentar el tráfico interno.
+<img src="imgs/Vlan.png" width="500">
+- Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.
+<img src="imgs/zona.png" width="500">
+- Asignacion de DHCP para la Vlan.
+<img src="imgs/dhcp.png" width="500">
+  
+### 🔹 3. Políticas y reglas de firewall
+- Creación de políticas de firewall entre zonas
+<img src="imgs/reglas.png" width="500">
 
 
 ### 🔹 4. Configuración de VPN SSL
