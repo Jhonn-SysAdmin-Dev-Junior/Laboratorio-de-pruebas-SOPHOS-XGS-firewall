@@ -81,7 +81,11 @@
   </li>
   <li>
   <p>Acontinuación se creó una regla de firewall que permite a los usuarios conectados por VPN acceder tanto a la red interna (LAN) como a Internet (WAN).</p>
-    <img src="imgs/Regla.png" width="500">
+    <img src="imgs/Regla.png" width="400">
+  </li>
+   <li>
+  <p>Se habilitaron los accesos necesarios para que las diferentes zonas (como WAN o VPN) puedan interactuar con el firewall. Esto incluye el acceso al portal SSL VPN, la capacidad de realizar pings, acceder a la gestión remota, y otros servicios esenciales desde fuera de la red local.</p>
+    <img src="imgs/acceso.png" width="400">
   </li>
   <li>
     <p>Se generó el archivo de configuración .ovpn para importar al cliente Sophos Connect.</p>
@@ -92,23 +96,12 @@
     <img src="imgs/sophos.png" width="50">
   </li>
   <li>
-    <p>Se importó el archivo .ovpn al cliente para establecer la conexión.</p>
+    <p>Se importó el archivo .ovpn al cliente para establecer la conexión y se probó la VPN correctamente para  acceder a la red interna y navegar por internet.</p>
     <img src="imgs/politica.png" width="500">
   </li>
   <li>
-    <p>La VPN se probó correctamente y se pudo acceder a la red interna y navegar por internet.</p>
+    <p></p>
     <img src="imgs/politica.png" width="500">
-  </li>
-  <li>
-    <p>Se creó una regla de firewall para permitir tráfico desde la VPN a la LAN y WAN.</p>
-    <img src="imgs/politica.png" width="500">
-  </li>
-  <li>
-    <p>Se ajustó el acceso desde zonas para permitir portal VPN y SSL VPN desde WAN.</p>
-    <img src="imgs/politica.png" width="500">
-  </li>
-  <li>
-    <p>Se validó el tráfico VPN con la ruta <code>ip route</code> en el cliente.</p>
   </li>
 </ul>
 
