@@ -60,7 +60,7 @@
 <b>Ejecutamos:</b>
 <p>Podemos ver que nuestra MV esta recibiendo la primera ip del rango que he asignado y que tambien tiene conexión a Internet</p>
 <img src=imgs/vlan2.png width="850">
-<img src=imgs/conexion.png width="600">
+<img src=imgs/conexion.png width="550">
 
 
     
