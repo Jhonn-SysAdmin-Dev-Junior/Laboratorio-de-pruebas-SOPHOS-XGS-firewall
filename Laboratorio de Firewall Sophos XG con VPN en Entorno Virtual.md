@@ -71,26 +71,25 @@
 <p>Para implementar correctamente una VPN, es fundamental la creación de una política de acceso VPN, la cual define los permisos, recursos accesibles y usuarios autorizados para establecer conexiones remotas seguras con la red interna.</p>
     <img src="imgs/politica.png" width="500">
   </li>
-  <li>  
-        <p>Acontinuación se procede a definir qué usuarios tendrán acceso a la VPN. Por esta razón, se debe crear un grupo de usuarios específico con permisos de conexión VPN. Esto permite gestionar de forma centralizada los accesos, aplicar políticas de seguridad adecuadas y facilitar la administración de los usuarios conectados.</p>
-    <img src="imgs/vpn.png" width="500">
-  
+    <li>
+<p>Tambien es necesario realizar la configuracion global de la VPN, que es donde se define el protocolo que se usará (en este caso TCP), los certificados,el puerto por el cual se escuchara la VPN, y tambien el pool de direcciones IPV4 que se le asignará a cada usuario cuando se conecte a la VPN</p>
+    <img src="imgs/Global.png" width="500">
   </li>
-   <li>
-    <p>Se asigno al grupo creado dicha política VPN.</p>
-    <img src="imgs/politica.png" width="500">
+  <li>  
+        <p>Acontinuación se procede a definir qué usuarios tendrán acceso a la VPN. Por ende, se debe crear un grupo de usuarios específico al cual se le asignará la política VPN creada anteriormente. Esto permite gestionar de forma centralizada los accesos y facilitar la administración de los usuarios conectados.</p>
+    <img src="imgs/vpn.png" width="500">
   </li>
   <li>
-    <p>Se habilitó el acceso a la LAN y a Internet desde la VPN.</p>
-    <img src="imgs/politica.png" width="500">
+  <p>Acontinuación se creó una regla de firewall que permite a los usuarios conectados por VPN acceder tanto a la red interna (LAN) como a Internet (WAN).</p>
+    <img src="imgs/Regla.png" width="500">
   </li>
   <li>
     <p>Se generó el archivo de configuración .ovpn para importar al cliente Sophos Connect.</p>
-    <img src="imgs/politica.png" width="500">
+    <img src="imgs/ovpn.png" width="500">
   </li>
   <li>
     <p>Se descargó e instaló el cliente VPN en el equipo host.</p>
-    <img src="imgs/politica.png" width="500">
+    <img src="imgs/sophos.png" width="500">
   </li>
   <li>
     <p>Se importó el archivo .ovpn al cliente para establecer la conexión.</p>
