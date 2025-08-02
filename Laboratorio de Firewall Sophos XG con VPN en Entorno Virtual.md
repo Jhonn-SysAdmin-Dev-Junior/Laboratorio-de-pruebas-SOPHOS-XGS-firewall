@@ -57,7 +57,7 @@
 <p>Para esto ejecutamos los comandos:</p>
 <p>
 sudo ip link add link enp0s8 name enp0s8.10 type vlan id 10 (crear la interfaz VLAN 10 sobre enp0s8)</p>
-<p>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</p>
+<strong>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</strong>
     
   </li>
 </ul>
