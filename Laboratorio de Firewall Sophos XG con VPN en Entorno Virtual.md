@@ -19,14 +19,16 @@
 ### 🔹 1. Configuración inicial de Sophos
 <ul>
   <li>
-<p>Instalación de Sophos XG en VM.</p>
-  <img src="imgs/instalacion1.png" width="500">
+    <p>Instalación de Sophos XG en VM.</p>
+    <img src="imgs/instalacion1.png" width="500">
+  </li>
+
+  <li>
+    <p>Asignación de interfaces LAN y WAN.</p>
+    <img src="imgs/LAN.png" width="500">
+    <img src="imgs/WAN.png" width="500">
   </li>
 </ul>
-
-- Asignación de interfaces LAN y WAN.
-<img src="imgs/LAN.png" width="500">
-<img src="imgs/WAN.png" width="500">
 
 ### 2. 🧱 VLANs y Segmentación
 <ul>
