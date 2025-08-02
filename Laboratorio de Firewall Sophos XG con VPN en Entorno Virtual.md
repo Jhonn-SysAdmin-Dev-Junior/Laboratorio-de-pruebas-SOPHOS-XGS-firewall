@@ -50,7 +50,7 @@
 <ul>
   <li>
     <p>Es necesario la creación de una regla de firewall para permitir que los usuarios que estan en la VLAN puedan acceder a la WAN (Internet)</p>
-  <img src="imgs/reglas.png" width="400">
+  <img src="imgs/reglas.png" width="800">
   </li>
   <li>
  <p>Para verificar que la VLAN fue creada correctamente y funciona según lo esperado, se utilizará una máquina virtual con Linux. Esto se debe a que sistemas como Windows no soportan el etiquetado VLAN. Es importante que esta máquina virtual esté conectada a la misma red interna que el firewall (por ejemplo, mediante un adaptador de red en modo "Red Interna") para poder ejecutar los comandos necesarios y comprobar la conectividad dentro del entorno VLAN.</p>
