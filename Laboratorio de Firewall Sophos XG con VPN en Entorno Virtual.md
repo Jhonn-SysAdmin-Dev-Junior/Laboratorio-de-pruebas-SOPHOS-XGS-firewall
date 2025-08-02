@@ -29,10 +29,20 @@
 <img src="imgs/WAN.png" width="500">
 
 ### 2. 🧱 VLANs y Segmentación
-- Creación de VLANs en la red LAN para segmentar el tráfico interno.
-<img src="imgs/Vlan.png" width="500">
-- Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.
-<img src="imgs/zona.png" width="500">
+<ul>
+  <li>
+     <p>Creación de VLANs en la red LAN para segmentar el tráfico interno.</p>
+      <img src="imgs/Vlan.png" width="500">
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <p>Para crear correctamente una VLAN en Sophos, primero se debe crear una zona, ya que la interfaz VLAN debe estar asignada a una zona para su gestión y control de tráfico.</p>
+    <img src="imgs/zona.png" width="500">
+  </li>
+</ul>
+
 - Asignacion de DHCP para la Vlan.
 <img src="imgs/dhcp.png" width="500">
   
