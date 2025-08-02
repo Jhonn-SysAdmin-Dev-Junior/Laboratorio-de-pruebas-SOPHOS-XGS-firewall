@@ -85,7 +85,7 @@
   </li>
    <li>
   <p>Se habilitaron los accesos necesarios para que las diferentes zonas (como WAN o VPN) puedan interactuar con el firewall. Esto incluye el acceso al portal SSL VPN, la capacidad de realizar pings, acceder a la gestión remota, y otros servicios esenciales desde fuera de la red local.</p>
-    <img src="imgs/acceso.png" width="600">
+    <img src="imgs/acceso.png" width="800">
   </li>
   <li>
     <p>Se generó el archivo de configuración .ovpn para importar al cliente Sophos Connect.</p>
