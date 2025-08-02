@@ -68,12 +68,13 @@
 ### 🔹 4. Creacion y configuracion de una VPN 
 <ul>
   <li>
-    <p>Para implementar correctamente una VPN, es fundamental definir qué usuarios tendrán acceso a ella. Por esta razón, se debe crear un grupo de usuarios específico con permisos de conexión VPN. Esto permite gestionar de forma centralizada los accesos, aplicar políticas de seguridad adecuadas y facilitar la administración de los usuarios conectados.</p>
-    <img src="imgs/vpn.png" width="500">
-  </li>
-  <li>
-    <p> A continuación, se procede a la creación de una política de acceso VPN, la cual define los permisos, recursos accesibles y usuarios autorizados para establecer conexiones remotas seguras con la red interna.</p>
+<p>Para implementar correctamente una VPN, es fundamental la creación de una política de acceso VPN, la cual define los permisos, recursos accesibles y usuarios autorizados para establecer conexiones remotas seguras con la red interna.</p>
     <img src="imgs/politica.png" width="500">
+  </li>
+  <li>  
+        <p>Acontinuación se procede a definir qué usuarios tendrán acceso a la VPN. Por esta razón, se debe crear un grupo de usuarios específico con permisos de conexión VPN. Esto permite gestionar de forma centralizada los accesos, aplicar políticas de seguridad adecuadas y facilitar la administración de los usuarios conectados.</p>
+    <img src="imgs/vpn.png" width="500">
+  
   </li>
    <li>
     <p>Se asigno al grupo creado dicha política VPN.</p>
