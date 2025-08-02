@@ -7,7 +7,7 @@
 
 ## 🧩 Objetivos del laboratorio
 
-- Simular un entorno real de red segura.
+- Simular un entorno real de red segura con una o mas VLAN.
 - Configurar reglas de firewall y control de acceso.
 - Habilitar y probar una **VPN SSL** remota.
 - Administrar usuarios, grupos y políticas.
@@ -61,22 +61,22 @@
 <p>Podemos ver que nuestra MV esta recibiendo la primera ip del rango que he asignado y que tambien tiene conexión a Internet</p>
 <img src=imgs/vlan2.png width="850">
 <img src=imgs/conexion.png width="550">
-
-
-    
   </li>
 </ul>
 
 
-
-### 🔹 4. Configuración de VPN SSL
+### 🔹 4. Creacion y configuracion de una VPN 
 <ul>
   <li>
-    <p>Se creó un usuario local y un grupo de usuarios VPN.</p>
+    <p>Para implementar correctamente una VPN, es fundamental definir qué usuarios tendrán acceso a ella. Por esta razón, se debe crear un grupo de usuarios específico con permisos de conexión VPN. Esto permite gestionar de forma centralizada los accesos, aplicar políticas de seguridad adecuadas y facilitar la administración de los usuarios conectados.</p>
     <img src="imgs/vpn.png" width="500">
   </li>
   <li>
-    <p>Se asignó al usuario una política de VPN SSL específica.</p>
+    <p> A continuación, se procede a la creación de una política de acceso VPN, la cual define los permisos, recursos accesibles y usuarios autorizados para establecer conexiones remotas seguras con la red interna.</p>
+    <img src="imgs/politica.png" width="500">
+  </li>
+   <li>
+    <p>Se asigno al grupo creado dicha política VPN.</p>
     <img src="imgs/politica.png" width="500">
   </li>
   <li>
