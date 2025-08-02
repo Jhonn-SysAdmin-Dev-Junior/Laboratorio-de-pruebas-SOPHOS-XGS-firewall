@@ -58,8 +58,10 @@
 <p>sudo ip link add link enp0s8 name enp0s8.10 type vlan id 10 (crear la interfaz VLAN 10 sobre enp0s8)</p>
 <p>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</p><br>
 <b>Ejecutamos:</b>
-<p>Y podemos ver que nuestra MV esta recibiendo la primera ip del rango que he asignado</p>
+<p>Podemos ver que nuestra MV esta recibiendo la primera ip del rango que he asignado y que tambien tiene conexión a Internet</p>
 <img src=imgs/vlan2.png width="800">
+<img src=imgs/conexion.png width="900">
+
 
     
   </li>
