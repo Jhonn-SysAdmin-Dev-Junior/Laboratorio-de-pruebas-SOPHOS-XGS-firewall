@@ -55,9 +55,12 @@
   <li>
  <p>Para verificar que la VLAN fue creada correctamente y funciona según lo esperado, se utilizará una máquina virtual con Linux. Esto se debe a que sistemas como Windows no soportan el etiquetado VLAN. Es importante que esta máquina virtual esté conectada a la misma red interna que el firewall (por ejemplo, mediante un adaptador de red en modo "Red Interna") para poder ejecutar los comandos necesarios y comprobar la conectividad dentro del entorno VLAN.</p>
 <p>Para esto ejecutamos los comandos:</p>
-<p>
-sudo ip link add link enp0s8 name enp0s8.10 type vlan id 10 (crear la interfaz VLAN 10 sobre enp0s8)</p>
-<b>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</b>
+<b>sudo ip link add link enp0s8 name enp0s8.10 type vlan id 10 (crear la interfaz VLAN 10 sobre enp0s8)</b>
+<b>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</b><br>
+<b>Ejecutamos:</b>
+<p>Y podemos ver que nuestra MV esta recibiendo la primera ip del rango que he asignado</p>
+<img src=imgs/vlan2.png width="400">
+
     
   </li>
 </ul>
