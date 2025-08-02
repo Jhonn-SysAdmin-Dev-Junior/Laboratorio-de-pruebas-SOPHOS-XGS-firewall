@@ -93,14 +93,10 @@
   </li>
   <li>
     <p>Se descargó e instaló el cliente VPN en el equipo host.</p>
-    <img src="imgs/sophos.png" width="50">
+    <img src="imgs/sophos.png" width="100">
   </li>
   <li>
     <p>Se importó el archivo .ovpn al cliente para establecer la conexión y se probó la VPN correctamente para  acceder a la red interna y navegar por internet.</p>
-    <img src="imgs/politica.png" width="500">
-  </li>
-  <li>
-    <p></p>
     <img src="imgs/politica.png" width="500">
   </li>
 </ul>
