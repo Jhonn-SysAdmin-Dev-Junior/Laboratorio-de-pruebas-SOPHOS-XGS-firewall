@@ -97,7 +97,7 @@
   </li>
   <li>
     <p>Se importó el archivo .ovpn al cliente para establecer la conexión y se probó la VPN correctamente para  acceder a la red interna y navegar por internet.</p>
-    <img src="imgs/politica.png" width="500">
+    <img src="imgs/prueba.png" width="500">
   </li>
 </ul>
 
