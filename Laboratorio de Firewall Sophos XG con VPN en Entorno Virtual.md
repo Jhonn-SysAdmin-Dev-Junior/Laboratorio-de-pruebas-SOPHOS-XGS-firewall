@@ -51,7 +51,7 @@
 <ul>
   <li>
     <p>Creación de políticas de firewall entre zonas</p>
-  <img src="imgs/reglas.png" width="500">
+  <img src="imgs/reglas.png" width="400">
   </li>
 </ul>
 
