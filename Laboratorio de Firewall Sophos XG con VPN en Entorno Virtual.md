@@ -92,9 +92,6 @@
   <li>
     <p>Se validó el tráfico VPN con la ruta <code>ip route</code> en el cliente.</p>
   </li>
-  <li>
-    <p>Simulación de un entorno real de red segura.</p>
-  </li>
 </ul>
 
 
