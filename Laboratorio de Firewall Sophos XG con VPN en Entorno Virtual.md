@@ -49,10 +49,20 @@
 ### 🔹 3. Políticas y reglas de firewall
 <ul>
   <li>
-    <p>Creación de políticas de firewall entre zonas</p>
+    <p>Es necesario la creación de una regla de firewall para permitir que los usuarios que estan en la VLAN puedan acceder a la WAN (Internet)</p>
   <img src="imgs/reglas.png" width="400">
   </li>
+  <li>
+ <p>Para verificar que la VLAN fue creada correctamente y funciona según lo esperado, se utilizará una máquina virtual con Linux. Esto se debe a que sistemas como Windows no soportan el etiquetado VLAN. Es importante que esta máquina virtual esté conectada a la misma red interna que el firewall (por ejemplo, mediante un adaptador de red en modo "Red Interna") para poder ejecutar los comandos necesarios y comprobar la conectividad dentro del entorno VLAN.</p>
+<p>Para esto ejecutamos los comandos:</p>
+<p>
+sudo ip link add link enp0s8 name enp0s8.10 type vlan id 10 (crear la interfaz VLAN 10 sobre enp0s8)</p>
+<p>sudo ip link set dev enp0s8.10 up (levantar la interfaz VLAN)</p>
+    
+  </li>
 </ul>
+
+
 
 ### 🔹 4. Configuración de VPN SSL
 <ul>
